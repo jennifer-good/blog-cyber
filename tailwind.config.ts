@@ -19,7 +19,7 @@ const config: Config = {
         "h1": "#f0a38cff",
         "h1-hover": "#da7455ff",
         "h2": "#9caa2eff",
-        "dark-text": "#deeaedff",
+        "dark-text": "#f3f7f8ff",
         "dark-footer": "#620b3fff",
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",
