@@ -1,12 +1,13 @@
 import Container from "@/app/_components/container";
 import { Intro } from "../_components/intro";
+import { PostTitle } from "../_components/post-title";
 
 export default function AboutPage() {
   return (
     <Container>
         <Intro />
-        <main className="max-w-5xl mx-auto px-8 py-10">
-        <h1 className="text-3xl font-bold mb-4">About Me</h1>
+        <main className="max-w-4xl mx-auto px-8 py-10">
+        <PostTitle>About Me</PostTitle>
         <p>
             {/* Your about me content here */}
             Hi, I'm [Your Name]. Welcome to my blog!
