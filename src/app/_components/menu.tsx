@@ -14,6 +14,9 @@ export function Menu() {
             About Me
           </Link>
         </li>
+          <Link href="/posts" className="text-lg font-medium hover:underline">
+            Posts
+          </Link>
       </ul>
     </nav>
   );

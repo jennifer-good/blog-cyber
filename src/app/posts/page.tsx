@@ -1,16 +1,18 @@
 import Container from "@/app/_components/container";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
+import { Intro } from "../_components/intro";
+import { PostTitle } from "../_components/post-title";
 
 export default function PostsPage() {
   const allPosts = getAllPosts();
 
   return (
-    <main>
-      <Container>
-        <h1 className="mb-8 text-3xl font-bold md:text-5xl">All Posts</h1>
-        {allPosts.length > 0 && <MoreStories posts={allPosts} />}
-      </Container>
-    </main>
+    <Container>
+        <Intro />
+        <main className="max-w-4xl mx-auto px-8 py-10">
+            {allPosts.length > 0 && <MoreStories posts={allPosts} />}
+        </main>
+    </Container>
   );
 }
