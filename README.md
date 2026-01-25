@@ -20,7 +20,7 @@ and then can do npm run start to start the app locally
 ## Deploy changes to production
 
 This is run by Vercel so every push to main should deploy the app in production on phishandchips.online
-Can check on deployments on the Vercel dashboard https://vercel.com/goodjen1014-6258s-projects/blog-cyber
+Can check on deployments on the Vercel dashboard https://vercel.com/goodjen1014-6258s-projects/blog-cyber/deployments
 
 # Blog Info
 The blog is hosted at https://www.phish-and-chips.online/ and the domain is managed on squarespace https://account.squarespace.com/domains/managed/phish-and-chips.online

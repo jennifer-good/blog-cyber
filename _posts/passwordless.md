@@ -25,7 +25,7 @@ This is where passwordless authentication comes in.
 
 ## What Is Passwordless Authentication?
 
-Passwordless authentication eliminates the need for traditional passwords entirely. Instead, users prove their identity through other means—typically something they have (a device), something they are (biometrics), or something they know (but not a password).
+Passwordless authentication eliminates the need for traditional passwords entirely. Instead, users prove their identity through other means. Typically this is something they have (a device), something they are (biometrics), or something they know (but not a password).
 
 ## Common Passwordless Methods
 
@@ -52,7 +52,7 @@ Apps like Google Authenticator, Microsoft Authenticator, or Authy generate time-
 
 ### 4. **Hardware Security Keys**
 
-Physical devices (like YubiKeys) that use cryptographic protocols (FIDO2/U2F) to authenticate. You insert the key or tap it to your device.
+Physical devices (like YubiKeys) that use cryptographic protocols (FIDO2/U2F) to authenticate. You insert the key or tap it to your device. This would probably only be used for sensitive documents or work at this point.
 
 **Pros:** Extremely secure, immune to phishing, cannot be remotely compromised
 **Cons:** Expensive, easy to lose, requires additional hardware
@@ -135,7 +135,7 @@ Many services struggle with this balance.
 
 ## The Reality: It's Not Either/Or
 
-The future likely isn't "passwords vs. passwordless"—it's **layered security**. Most forward-thinking companies offer:
+The future likely isn't "passwords vs. passwordless". It's **layered security**. Most forward-thinking companies offer:
 - Passwordless options as the primary method
 - Passwords as a fallback
 - Multi-factor authentication combining multiple methods
@@ -158,7 +158,7 @@ If you're a developer:
 
 ## Conclusion
 
-Passwordless authentication represents a genuine step forward in security and user experience. Magic links, biometrics, and security keys are becoming normalized, and for good reason. However, they're not a silver bullet—each method has tradeoffs, and the strongest security comes from defense in depth.
+Passwordless authentication represents a genuine step forward in security and user experience. Magic links, biometrics, and security keys are becoming normalized, and for good reason. However, they're not a silver bullet and each method has tradeoffs, and the strongest security comes from defense in depth.
 
 The transition away from passwords won't happen overnight, but we're already in the middle of it. The question isn't if passwordless will become standard, but when.
 
