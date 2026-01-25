@@ -10,7 +10,9 @@ export default function AboutPage() {
         <PostTitle>About Me</PostTitle>
         <p>
             {/* Your about me content here */}
-            Hi, I'm [Your Name]. Welcome to my blog!
+            Hi, I'm Jennifer Good. Welcome to my blog! I am currently a cybersecurity engineer for a major retail company.
+            I have a passion for technology, security, and sharing knowledge with others. 
+            In my free time, I enjoy hiking, reading, and experimenting with new recipes in the kitchen.
         </p>
         </main>
     </Container>
