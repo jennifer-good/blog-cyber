@@ -105,11 +105,11 @@ HTTPS doesn't stop cookies, tracking pixels, or analytics from tracking your beh
 
 ### 5. **It Doesn't Verify the Certificate is Actually Valid**
 
-While your browser checks the certificate, users often ignore security warnings. If you see a "certificate error" and click through anyway, you've lost that protection. Also a site could get a valid certificate for a spoofed website. Be sure to check the domain urls thoroughly and be sure you navigate to where you expect.
+While your browser checks the certificate, users often ignore security warnings. If you see a "certificate error" and click through anyway, you've lost that protection. Also a site could possibly get a valid certificate for a craftily spoofed website. Be sure to check the domain urls thoroughly and be sure you navigate to where you expect.
 
 ### 6. **It Doesn't Protect Against Malware**
 
-An HTTPS site can still host malware or malicious scripts. The encryption protects the communication, not the content itself. To prevent getting malware, use websites you trust and don't click buttons or download anything unless you have done some due diligence to verify the site if unsure.
+An HTTPS site can still host malware or malicious scripts. The encryption protects the communication, not the content itself. To prevent getting malware, use websites you trust and don't click buttons or download anything unless you have done some due diligence to verify the site.
 
 ## Red Flags: What You Should Never Trust
 
@@ -128,7 +128,7 @@ Even on HTTPS sites, stay alert for these red flags:
 ### For Users
 
 - Always look for HTTPS (the padlock), especially on login pages and checkout
-- But don't assume HTTPS means the site is trustworthy—verify domain names carefully
+- But don't assume HTTPS means the site is trustworthy, verify domain names carefully
 - Use strong, unique passwords
 - Enable two-factor authentication where available
 - Be skeptical of urgent requests for sensitive information
@@ -148,7 +148,7 @@ Even on HTTPS sites, stay alert for these red flags:
 
 ## The Bottom Line
 
-HTTPS is essential and important—it protects your data from being intercepted and read by third parties. The padlock is a good sign.
+HTTPS is essential and important. It protects your data from being intercepted and read by third parties. The padlock is a good sign.
 
 But it's not a complete security solution. HTTPS protects the **transmission** of data, not the trustworthiness of the website itself or what happens to your data once it's received.
 
