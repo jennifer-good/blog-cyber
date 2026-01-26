@@ -3,6 +3,7 @@ import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
 import { getAllPosts } from "@/lib/api";
+import { HomePost } from "./_components/home-post";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -15,6 +16,10 @@ export default function Index() {
     <main>
       <Container>
         <Intro />
+        <HomePost/>
+        <h2 className="mb-8 text-5xl md:text-7xl font-bold text-h2 tracking-tighter leading-tight">
+          Latest Post
+        </h2>
         <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}

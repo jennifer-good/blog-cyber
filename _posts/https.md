@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jen.png"
 ogImage:
   url: "/assets/blog/cover-photos/https-browser.png"
+tags: ["encryption", "security", "web"]
 ---
 
 ## The Padlock: What It Actually Means

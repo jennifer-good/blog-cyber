@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jen.png"
 ogImage:
   url: "/assets/blog/cover-photos/passwordless.jpg"
+tags: ["authentication", "security", "passwords"]
 ---
 
 ## The Problem With Passwords

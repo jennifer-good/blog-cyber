@@ -26,3 +26,33 @@ export function getAllPosts(): Post[] {
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
 }
+
+export function getRelatedPosts(currentPost: Post, limit: number = 3): Post[] {
+  if (!currentPost.tags || currentPost.tags.length === 0) {
+    // If no tags, return recent posts excluding current one
+    return getAllPosts()
+      .filter((post) => post.slug !== currentPost.slug)
+      .slice(0, limit);
+  }
+
+  const allPosts = getAllPosts().filter((post) => post.slug !== currentPost.slug);
+
+  // Calculate relevance score based on shared tags
+  const postsWithScore = allPosts.map((post) => {
+    const sharedTags = post.tags?.filter((tag) =>
+      currentPost.tags?.includes(tag)
+    ).length ?? 0;
+    return { post, score: sharedTags };
+  });
+
+  // Sort by score (descending), then by date (recent first)
+  return postsWithScore
+    .sort((a, b) => {
+      if (b.score !== a.score) {
+        return b.score - a.score;
+      }
+      return a.post.date > b.post.date ? -1 : 1;
+    })
+    .map((item) => item.post)
+    .slice(0, limit);
+}

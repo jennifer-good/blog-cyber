@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/api";
+import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/api";
 import { CMS_NAME } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Alert from "@/app/_components/alert";
@@ -9,6 +9,7 @@ import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
 import { Intro } from "@/app/_components/intro";
+import { RelatedPosts } from "@/app/_components/related-posts";
 
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -19,6 +20,7 @@ export default async function Post(props: Params) {
   }
 
   const content = await markdownToHtml(post.content || "");
+  const relatedPosts = getRelatedPosts(post, 3);
 
   return (
     <main>
@@ -33,6 +35,7 @@ export default async function Post(props: Params) {
           />
           <PostBody content={content} />
         </article>
+        <RelatedPosts relatedPosts={relatedPosts} />
       </Container>
     </main>
   );

@@ -8,6 +8,7 @@ author:
   picture: "/assets/blog/authors/jen.png"
 ogImage:
   url: "/assets/blog/cover-photos/scary-spooky.png"
+tags: ["security", "education", "getting-started"]
 ---
 
 
