@@ -10,7 +10,7 @@ export default function PostsPage() {
   return (
     <Container>
         <Intro />
-        <main className="max-w-4xl mx-auto px-8 py-10">
+        <main className="max-w-4xl mx-auto px-12 py-12">
             {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </main>
     </Container>

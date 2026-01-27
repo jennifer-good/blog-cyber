@@ -21,6 +21,7 @@ const config: Config = {
         "h2": "#9caa2eff",
         "dark-text": "#f3f7f8ff",
         "dark-footer": "#620b3fff",
+        "light-footer": "rgb(248, 237, 236)",
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",
         "accent-7": "#333",

@@ -44,4 +44,4 @@ Fun examples of how cyber touches your daily world.
   
 A blog that keeps things fresh, light, and practical.
 
-Cybersecurity is important—but it doesn’t have to be overwhelming. Think of this space as your digital keychain: a simple, handy set of tools to keep your online world safe.
+Cybersecurity is important, but it doesn’t have to be overwhelming. Think of this space as your digital keychain: a simple, handy set of tools to keep your online world safe.
