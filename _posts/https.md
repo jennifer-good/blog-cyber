@@ -157,3 +157,12 @@ Think of HTTPS like a secure envelope for your mail. It keeps someone from openi
 
 Always combine HTTPS with critical thinking, strong passwords, two-factor authentication, and healthy skepticism. A padlock is a good start, but your security is a layered defense, not a single padlock.
 
+---
+
+## References
+
+1. Open Web Application Security Project (OWASP) – ["Transport Layer Protection Cheat Sheet"](https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html)
+2. National Institute of Standards and Technology (NIST) – ["Guidelines for TLS Implementations"](https://csrc.nist.gov/pubs/sp/800/52/r2/final)
+3. Electronic Frontier Foundation (EFF) – ["HTTPS Everywhere"](https://www.eff.org/https-everywhere)
+4. Mozilla – ["What is HTTPS?"](https://support.mozilla.org/en-US/kb/what-https)
+

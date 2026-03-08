@@ -108,3 +108,12 @@ All of the below have been very useful improvements in recent years. Utilize the
 - Treat very cheap deals with suspicion and verify thoroughly.
 
 Staying safe on Facebook Marketplace, Craigslist, OfferUp, or eBay is mostly about simple precautions, skepticism, and using the protections platforms provide. With a few smart habits, most secondhand shopping is low-risk and rewarding.
+
+---
+
+## References
+
+1. Federal Trade Commission (FTC) – ["Online Shopping and Negative Reviews"](https://consumer.ftc.gov/articles/online-shopping-negative-reviews)
+2. Better Business Bureau (BBB) – ["Online Marketplace Scams"](https://www.bbb.org/article/scams/12679-bbb-tip-online-marketplace-scams)
+3. Consumer Reports – ["How to Avoid Scams on Facebook Marketplace"](https://www.consumerreports.org/shopping/how-to-avoid-scams-on-facebook-marketplace/)
+4. Federal Communications Commission (FCC) – ["Consumer Guide to Online Marketplaces"](https://www.fcc.gov/consumers/guides/consumer-guide-online-marketplaces)

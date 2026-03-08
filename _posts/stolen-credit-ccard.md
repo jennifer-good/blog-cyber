@@ -176,3 +176,12 @@ Credit card theft in 2026 is more sophisticated, but so are your protections. Th
 - Quick action: The faster you catch fraud, the easier it is to resolve
 
 You can't control every breach or scam attempt, but you can control how exposed your card is and how quickly you respond. Stay alert, stay skeptical, and stay secure.
+
+---
+
+## References
+
+1. Federal Trade Commission (FTC) – ["Credit Card Fraud"](https://consumer.ftc.gov/articles/credit-card-fraud)
+2. Consumer Reports – ["How to Protect Your Credit Cards"](https://www.consumerreports.org/credit-cards/how-to-protect-your-credit-cards/)
+3. Experian – ["Credit Card Fraud Prevention"](https://www.experian.com/blogs/ask-experian/credit-card-fraud-prevention/)
+4. Identity Theft Resource Center – ["Credit Card Fraud Statistics"](https://www.idtheftcenter.org/credit-card-fraud-statistics/)

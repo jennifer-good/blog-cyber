@@ -203,3 +203,13 @@ If you're reading this and managing any critical third-party software or just yo
 
 The SolarWinds attack was a failure of trust assumptions and architecture. But it was also a blueprint for how to do better. Learn from it. Don't wait for the next big breach to implement these lessons.
 
+---
+
+## References
+
+1. Cybersecurity and Infrastructure Security Agency (CISA) – ["Russian Government Cyber Activity Targeting Energy and Other Critical Infrastructure Sectors"](https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a)
+2. SolarWinds – ["Security Advisory"](https://www.solarwinds.com/securityadvisory)
+3. Krebs on Security – ["SolarWinds Hackers Hit 18,000 Organizations"](https://krebsonsecurity.com/2020/12/solarwinds-hackers-hit-18000-organizations/)
+4. The New York Times – ["Russian Hackers Broke Into Federal Agencies"](https://www.nytimes.com/2020/12/14/us/politics/russian-hackers-us-government.html)
+5. Microsoft – ["Deep Dive into the Solorigate Second-Stage Implant"](https://www.microsoft.com/en-us/security/blog/2021/01/20/deep-dive-into-the-solorigate-second-stage-implant/)
+

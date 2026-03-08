@@ -163,3 +163,12 @@ Passwordless authentication represents a genuine step forward in security and us
 
 The transition away from passwords won't happen overnight, but we're already in the middle of it. The question isn't if passwordless will become standard, but when.
 
+---
+
+## References
+
+1. National Institute of Standards and Technology (NIST) – [Digital Identity Guidelines: Authentication and Lifecycle Management](https://pages.nist.gov/800-63-3/sp800-63b.html)
+2. FIDO Alliance – ["What is FIDO?"](https://fidoalliance.org/what-is-fido/)
+3. Open Web Application Security Project (OWASP) – ["Authentication Cheat Sheet"](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+4. Microsoft – ["Passwordless Authentication"](https://www.microsoft.com/en-us/security/blog/2020/08/25/passwordless-authentication/)
+
