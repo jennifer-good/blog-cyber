@@ -8,7 +8,7 @@ author:
   picture: "/assets/blog/authors/jen.png"
 ogImage:
   url: "/assets/blog/cover-photos/Credit-card-fraud-top.jpg"
-tags: ["credit-cards", "fraud-prevention", "financial-security"]
+tags: ["credit-cards", "fraud-prevention", "financial-security", "scams"]
 ---
 
 ## The Evolving Threat Landscape
